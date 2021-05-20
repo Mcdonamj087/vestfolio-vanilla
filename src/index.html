@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Vestfolio v1</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="text/javascript" src="js/index.js" defer></script>
+</head>
+
+<body>
+
+  <!-- We need some structure.  Going to create a container / grid -->
+  <div class="wrapper">
+
+    <header>
+      <div class="left">
+        <h1 class="title">My Vestfolio</h1>
+        <p class="date"></p>
+        <h3 class="ytd">{{ inject YTD value }}</h3>
+      </div>
+
+      <div class="right">
+        <h2>jChakra88</h2>
+      </div>
+    </header>
+
+    <!-----------------------------------------------------
+    Asset types:
+    -- Will display asset types user currently is holding
+    -- Ability to add more assets
+    -- Clicking an asset updates the left pane below to enable adding dollar values
+   ----------------------------------------------------->
+    <section class="asset-types__wrapper">
+      <h3>Asset Types</h3>
+
+      <div class="asset-types__asset-tags">
+        <button id="add-node-trigger">Add new node +</button>
+
+
+      </div>
+    </section>
+
+    <section>
+      <!-----------------------------------------------------
+    Add money to asset panel:
+    -- displays a form for the active asset
+    -- User can submit form and it will updat ethe chart panel on right
+   ----------------------------------------------------->
+
+      <!-----------------------------------------------------
+    Chart panel:
+    -- Chart will show cumulative values for each asset in the form of pie / bar chart
+    -- Need mechanism to allow user to change chart type
+   ----------------------------------------------------->
+
+    </section>
+  </div>
+
+</body>
+
+</html>

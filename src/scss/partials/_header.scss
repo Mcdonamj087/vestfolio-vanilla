@@ -1,0 +1,19 @@
+header {
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .title {
+    margin-bottom: 30px;
+  }
+
+  .date {
+  }
+
+  .ytd {
+    color: $teal;
+  }
+}
